@@ -204,6 +204,11 @@ li:hover .button.blu{
   width: 100%;
   background-color: #D3D3D3;
 }
+.container-footer{
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
 .footer-left{
   display: inline-block;
   width: 50%;
@@ -213,8 +218,7 @@ li:hover .button.blu{
 .footer-left h2{
   position: absolute;
   top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
 }
 .footer-right{
   display: inline-block;
