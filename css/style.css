@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+#one{
+  height: 450px;
+  background-color: #0C325A;
+  background-image: url(../img/oldman.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 105% 105%;
+}
+.header-container{
+  width: 85%;
+  margin: 0 auto;
+}
+.nav:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav{
+  height: 50px;
+}
+.header-nav.left{
+  float: left;
+}
+.header-nav ul{
+  list-style: none;
+  line-height: 50px;
+}
+
+.header-nav ul li{
+  display: inline-block;
+  padding: 15px 10px;
+}
+.header-nav li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.header-nav.left ul li:first-child{
+  padding-left: 0;
+  padding-right: 60px;
+}
+.header-nav.right{
+  float: right;
+}
+.button{
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+.button.green{
+  background-color: #7CBB02;
+}
+.button.blu{
+  background-color: #0E325A;
+  border: 1px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.header-title{
+  height: 400px;
+  position: relative;
+}
+.position{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 30%;
+}
+.position h1{
+  color: white;
+  font-size: 35px;
+  line-height: 50px;
+}
+.position a{
+  display: inline-block;
+  margin-top: 25px;
+  background-color: #7CBB02;
+  font-size: 15px;
+  padding: 20px;
+}
